@@ -1,5 +1,3 @@
-# Collection of Dart linter rules used in projects at WordCollector.
-
 The [words](https://pub.dev/packages/words) package comprises two sets of [lints][rules] which help in development of consistent, predictable applications.
 
 Two sets of linter rules are used:
