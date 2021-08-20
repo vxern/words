@@ -1,0 +1,1 @@
+This example project uses the core ruleset.
