@@ -1,3 +1,7 @@
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
 linter:
   rules:
     ## Rules that are commented out are not yet supported.
