@@ -14,23 +14,23 @@ To learn more about lints, visit the official Dart [lints](https://pub.dev/packa
 
 1. Add the `words` package as a developer dependency using the terminal:
   
-  ```terminal
-  dart pub add --dev words
-  ```
+    ```terminal
+    dart pub add --dev words
+    ```
 
 2. Create an `analysis_options.yaml` file at the root of the repository (next to `pubspec.yaml`).
 
 3. In a Flutter project you should add: 
   
-  ```yaml
-  include: package:words/flutter.yaml
-  ```
+    ```yaml
+    include: package:words/flutter.yaml
+    ```
 
-  Otherwise:
+    Otherwise:
   
-  ```yaml
-  include: package:words/core.yaml
-  ```
+    ```yaml
+    include: package:words/core.yaml
+    ```
 
 [wordcollector]: https://github.com/wordcollector
 [rules]: https://dart.dev/tools/linter-rules
