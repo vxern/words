@@ -1,8 +1,8 @@
 name: words
 description: Collection of Dart linter rules used in projects of WordCollector.
 homepage: https://github.com/wordcollector/words
-issue_tracker: https://github.com/wordcollector/words/issues
 repository: https://github.com/wordcollector/words
+issue_tracker: https://github.com/wordcollector/words/issues
 version: 0.0.1
 
 environment:
