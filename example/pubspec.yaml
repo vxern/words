@@ -1,0 +1,11 @@
+publish_to: none
+
+name: using_words
+description: This is a sample project which utilises WordCollector's set of Dart lints
+version: 0.0.1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dev_dependencies:
+  words: ^0.0.1
