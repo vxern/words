@@ -1,6 +1,8 @@
-name: words
+publish_to: https://pub.dev
 
+name: words
 version: 0.0.2
+
 description: >-
   Collection of Dart linter rules used in projects of WordCollector,
   ensuring that code packages and programs are written to the highest
