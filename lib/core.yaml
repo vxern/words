@@ -71,14 +71,13 @@ linter:
     - camel_case_types
     - cascade_invocations
     - cast_nullable_to_non_nullable
-    - constant_identifier_names
     - curly_braces_in_flow_control_structures
     - deprecated_consistency
     - directives_ordering
     - do_not_use_environment
     - empty_catches
     - empty_constructor_bodies
-    # - eol_at_end_of_file
+    - eol_at_end_of_file
     - exhaustive_cases
     - file_names
     - flutter_style_todos
@@ -87,13 +86,13 @@ linter:
     - leading_newlines_in_multiline_strings
     - library_names
     - library_prefixes
-    # - library_private_types_in_public_api
+    - library_private_types_in_public_api
     - lines_longer_than_80_chars
     - missing_whitespace_between_adjacent_strings
     - no_default_cases
     - no_runtimeType_toString
     - non_constant_identifier_names
-    # - noop_primitive_operations
+    - noop_primitive_operations
     - null_check_on_nullable_type_parameter
     - null_closures
     - omit_local_variable_types
@@ -132,7 +131,7 @@ linter:
     - prefer_is_not_operator
     - prefer_iterable_whereType
     - prefer_mixin
-    # - prefer_null_aware_method_calls
+    - prefer_null_aware_method_calls
     - prefer_null_aware_operators
     - prefer_single_quotes
     - prefer_spread_collections
@@ -171,11 +170,11 @@ linter:
     - use_rethrow_when_possible
     - use_setters_to_change_properties
     - use_string_buffers
-    # - use_test_throws_matchers
+    - use_test_throws_matchers
     - use_to_and_as_if_applicable
     - void_checks
 
     ## Pub rules
-    # - depend_on_referenced_packages
+    - depend_on_referenced_packages
     - package_names
     - sort_pub_dependencies
