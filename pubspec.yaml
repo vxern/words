@@ -1,12 +1,12 @@
 publish_to: https://pub.dev
 
 name: words
-version: 0.0.2
+version: 0.0.2+1
 
 description: >-
-  Collection of Dart linter rules used in projects of WordCollector,
-  ensuring that code packages and programs are written to the highest
-  standard possible.
+  A curated collection of lints for use by Dart packages to ensure
+  higher program safety and to promote best practices, selected and
+  maintained by WordCollector.
 
 homepage: https://github.com/wordcollector/words
 repository: https://github.com/wordcollector/words
