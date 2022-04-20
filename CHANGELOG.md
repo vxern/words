@@ -1,3 +1,9 @@
+## 0.0.2+2
+
+- Added:
+  - `use_enums`
+  - `use_super_parameters`
+
 ## 0.0.2+1
 
 - Edited package description.

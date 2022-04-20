@@ -1,7 +1,5 @@
-publish_to: https://pub.dev
-
 name: words
-version: 0.0.2+1
+version: 0.0.2+2
 
 description: >-
   A curated collection of lints for use by Dart packages to ensure
