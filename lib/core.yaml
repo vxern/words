@@ -47,6 +47,7 @@ linter:
     - avoid_equals_and_hash_code_on_mutable_classes
     - avoid_escaping_inner_quotes
     - avoid_field_initializers_in_const_classes
+    - avoid_final_parameters
     - avoid_function_literals_in_foreach_calls
     - avoid_implementing_value_types
     - avoid_init_to_null
@@ -71,6 +72,7 @@ linter:
     - camel_case_types
     - cascade_invocations
     - cast_nullable_to_non_nullable
+    - conditional_uri_does_not_exist
     - curly_braces_in_flow_control_structures
     - deprecated_consistency
     - directives_ordering
@@ -90,6 +92,8 @@ linter:
     - lines_longer_than_80_chars
     - missing_whitespace_between_adjacent_strings
     - no_default_cases
+    - no_leading_underscores_for_library_prefixes
+    - no_leading_underscores_for_local_identifiers
     - no_runtimeType_toString
     - non_constant_identifier_names
     - noop_primitive_operations
@@ -139,7 +143,7 @@ linter:
     - provide_deprecation_message
     - public_member_api_docs
     - recursive_getters
-    # - require_trailing_commas
+    - require_trailing_commas
     - slash_for_doc_comments
     - sort_unnamed_constructors_first
     - tighten_type_of_initializing_formals
@@ -150,6 +154,7 @@ linter:
     - unnecessary_const
     - unnecessary_getters_setters # You tell 'em (C#, Java), Dart!
     - unnecessary_lambdas
+    - unnecessary_late
     - unnecessary_new
     - unnecessary_null_aware_assignments
     - unnecessary_null_checks
@@ -179,4 +184,5 @@ linter:
     ## Pub rules
     - depend_on_referenced_packages
     - package_names
+    - secure_pubspec_urls
     - sort_pub_dependencies
