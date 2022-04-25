@@ -1,3 +1,10 @@
+## 0.1.0+1
+
+- Removed: (These were added in Linter `1.22.0`, which isn't yet featured in the
+  stable Dart SDK channel)
+  - `use_enums`
+  - `use_super_parameters`
+
 ## 0.1.0
 
 - Added: (Added together with Dart `2.16.0` in Linter `1.18.0`)
@@ -10,13 +17,8 @@
     - `unnecessary_late`
     - `secure_pubspec_urls`
   - Flutter:
-    - sized_box_shrink_expand
-    - use_decorated_box
-
-- Removed: (These were added in Linter `1.22.0`, which isn't yet featured in the
-  stable Dart SDK channel)
-  - `use_enums`
-  - `use_super_parameters`
+    - `sized_box_shrink_expand`
+    - `use_decorated_box`
 
 ## 0.0.2+2
 
