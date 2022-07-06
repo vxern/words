@@ -1,13 +1,22 @@
+## 0.1.1
+
+- Added: (Added together with Dart `2.17.0` in linter version `1.22.0`)
+  - Core:
+    - `use_enums`
+    - `use_super_parameters`
+  - Flutter:
+    - `use_colored_box`
+
 ## 0.1.0+1
 
-- Removed: (These were added in Linter `1.22.0`, which isn't yet featured in the
-  stable Dart SDK channel)
+- Removed: (These were added in linter version `1.22.0`, which isn't yet
+  featured in the stable Dart SDK channel)
   - `use_enums`
   - `use_super_parameters`
 
 ## 0.1.0
 
-- Added: (Added together with Dart `2.16.0` in Linter `1.18.0`)
+- Added: (Added together with Dart `2.16.0` in linter version `1.18.0`)
   - Core:
     - `avoid_final_parameters`
     - `conditional_uri_does_not_exist`

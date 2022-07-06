@@ -1,1 +1,1 @@
-This example project uses the core ruleset.
+This example project uses the core lint ruleset.

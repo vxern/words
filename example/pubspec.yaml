@@ -3,10 +3,10 @@ publish_to: none
 name: using_words
 version: 0.0.1
 
-description: This is a sample project which uses the 'words' lint ruleset.
+description: This is a sample project that uses the 'words' lint ruleset.
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: '>=2.17.0 <3.0.0'
 
 dev_dependencies:
-  words: ^0.0.2+1
+  words: ^0.1.1
