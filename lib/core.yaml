@@ -17,6 +17,7 @@ linter:
     - close_sinks
     - comment_references
     - control_flow_in_finally
+    - discarded_futures
     - empty_statements
     - hash_and_equals
     - invariant_booleans
@@ -157,6 +158,7 @@ linter:
     - unnecessary_late
     - unnecessary_new
     - unnecessary_null_aware_assignments
+    - unnecessary_null_aware_operator_on_extension_on_nullable
     - unnecessary_null_checks
     - unnecessary_null_in_if_null_operators
     - unnecessary_nullable_for_final_variable_declarations
@@ -166,6 +168,7 @@ linter:
     - unnecessary_string_escapes
     - unnecessary_string_interpolations
     - unnecessary_this
+    - unnecessary_to_list_in_spreads
     - use_enums
     - use_function_type_syntax_for_parameters
     - use_if_null_to_convert_nulls_to_bools

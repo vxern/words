@@ -1,3 +1,11 @@
+## 0.2.0
+
+- Added: (Added together with Dart `2.18.0` in linter version `1.25.0`)
+  - Core:
+    - `discarded_futures`
+    - `unnecessary_null_aware_operator_on_extension_on_nullable`
+    - `unnecessary_to_list_in_spreads`
+
 ## 0.1.1
 
 - Added: (Added together with Dart `2.17.0` in linter version `1.22.0`)
