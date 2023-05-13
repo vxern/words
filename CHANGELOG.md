@@ -1,3 +1,17 @@
+## 0.3.0
+
+- Added: (Added together with Dart `2.19.0` in linter version `1.31.0`)
+  - Core:
+    - `collection_methods_unrelated_type`
+    - `combinators_ordering`
+    - `dangling_library_doc_comments`
+    - `enable_null_safety`
+    - `implicit_call_tearoffs`
+    - `library_annotations`
+    - `unnecessary_library_directive`
+    - `unreachable_from_main`
+    - `use_string_in_part_of_directives`
+
 ## 0.2.0
 
 - Added: (Added together with Dart `2.18.0` in linter version `1.25.0`)
