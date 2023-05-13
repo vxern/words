@@ -1,3 +1,8 @@
+## 0.3.1
+
+- Fix wrong option being defined in `core.yaml` (`strong-mode` instead of
+  `language`).
+
 ## 0.3.0
 
 - Added: (Added together with Dart `2.19.0` in linter version `1.31.0`)
