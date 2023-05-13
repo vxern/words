@@ -1,3 +1,7 @@
+## 0.3.2
+
+- Relicense package as `MIT` from `AGPL-3.0`.
+
 ## 0.3.1
 
 - Fix wrong option being defined in `core.yaml` (`strong-mode` instead of

@@ -9,4 +9,4 @@ environment:
   sdk: '>=2.19.0 <4.0.0'
 
 dev_dependencies:
-  words: ^0.3.0
+  words: ^0.3.2
