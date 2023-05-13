@@ -22,7 +22,8 @@ linter:
     - discarded_futures
     - empty_statements
     - hash_and_equals
-    - invariant_booleans
+    - implicit_reopen
+    - invalid_case_patterns
     - iterable_contains_unrelated_type
     - list_remove_unrelated_type
     - literal_only_boolean_expressions
@@ -44,7 +45,6 @@ linter:
     - annotate_overrides
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catches_without_on_clauses
-    - avoid_catching_errors
     - avoid_classes_with_only_static_members
     - avoid_double_and_int_checks
     - avoid_equals_and_hash_code_on_mutable_classes
@@ -80,11 +80,9 @@ linter:
     - curly_braces_in_flow_control_structures
     - dangling_library_doc_comments
     - deprecated_consistency
-    - directives_ordering
     - do_not_use_environment
     - empty_catches
     - empty_constructor_bodies
-    - enable_null_safety
     - eol_at_end_of_file
     - exhaustive_cases
     - file_names
@@ -157,8 +155,11 @@ linter:
     - tighten_type_of_initializing_formals
     - type_annotate_public_apis
     - type_init_formals
+    - type_literal_in_constant_pattern
+    - unawaited_futures
     - unnecessary_await_in_return
     - unnecessary_brace_in_string_interps
+    - unnecessary_breaks
     - unnecessary_const
     - unnecessary_getters_setters # You tell 'em (C#, Java), Dart!
     - unnecessary_lambdas

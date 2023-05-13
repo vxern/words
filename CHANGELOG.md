@@ -1,3 +1,22 @@
+## 0.4.0
+
+- Add:
+  - Core: (Added together with Dart `3.0.0` in linter version `1.35.0`)
+    - `implicit_reopen`
+    - `unnecessary_breaks`
+    - `type_literal_in_constant_pattern`
+    - `invalid_case_patterns`
+  - Core: (Missing)
+    - `unawaited_futures`
+- Remove:
+  - Core: (Removed in linter version `1.35.0`)
+    - `enable_null_safety`
+    - `invariant_booleans`
+  - Core: (Annoying)
+    - `avoid_catching_errors` (There are valid reasons to catch `TypeError`, for
+      example)
+    - `directives_ordering` (Some people may arrange their imports differently)
+
 ## 0.3.2
 
 - Relicense package as `MIT` from `AGPL-3.0`.

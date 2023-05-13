@@ -6,7 +6,7 @@ version: 0.0.1
 description: This is a sample project that uses the 'words' lint ruleset.
 
 environment:
-  sdk: '>=2.19.0 <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
 
 dev_dependencies:
-  words: ^0.3.2
+  words: ^0.4.0
