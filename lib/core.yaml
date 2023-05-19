@@ -2,7 +2,6 @@ analyzer:
   language:
     strict-casts: true
     strict-inference: true
-    strict-raw-types: true
 linter:
   rules:
     ## Rules that are commented out are not yet supported.

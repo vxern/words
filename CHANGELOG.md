@@ -1,3 +1,10 @@
+## 0.4.1
+
+- Remove:
+  - Analysis:
+    - `strict-raw-types`: Generics end up looking extremely ugly when `dynamic`
+      is required, where simply omitting the type would work just fine.
+
 ## 0.4.0
 
 - Add:
