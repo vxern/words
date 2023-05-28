@@ -1,3 +1,10 @@
+## 0.4.2
+
+- Remove:
+  - Core:
+    - `avoid_equals_and_hash_code_on_mutable_classes`: Requires the `meta`
+      package, which not everybody wants to use.
+
 ## 0.4.1
 
 - Remove:

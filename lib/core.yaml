@@ -46,7 +46,6 @@ linter:
     - avoid_catches_without_on_clauses
     - avoid_classes_with_only_static_members
     - avoid_double_and_int_checks
-    - avoid_equals_and_hash_code_on_mutable_classes
     - avoid_escaping_inner_quotes
     - avoid_field_initializers_in_const_classes
     - avoid_final_parameters
