@@ -1,3 +1,10 @@
+## 0.4.4
+
+- Add:
+  - Core: (Added together with Dart `3.1.0`)
+    - `no_self_assignments`
+    - `no_wildcard_variable_uses`
+
 ## 0.4.3
 
 - Update licence bearer and links.
