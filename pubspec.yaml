@@ -1,14 +1,13 @@
 name: words
-version: 0.4.2
+version: 0.4.3
 
 description: >-
   A curated collection of lints for use by Dart packages to ensure
-  higher program safety and to promote best practices, selected and
-  maintained by WordCollector.
+  higher program safety and to promote best practices.
 
-homepage: https://github.com/wordcollector/words
-repository: https://github.com/wordcollector/words
-issue_tracker: https://github.com/wordcollector/words/issues
+homepage: https://github.com/vxern/words
+repository: https://github.com/vxern/words
+issue_tracker: https://github.com/vxern/words/issues
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"

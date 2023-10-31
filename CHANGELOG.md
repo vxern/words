@@ -1,3 +1,7 @@
+## 0.4.3
+
+- Update licence bearer and links.
+
 ## 0.4.2
 
 - Remove:
