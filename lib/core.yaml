@@ -9,7 +9,6 @@ linter:
     ## Error rules
     - always_use_package_imports
     - avoid_relative_lib_imports
-    - avoid_returning_null_for_future
     - avoid_slow_async_io
     - avoid_type_to_string
     - avoid_types_as_parameter_names
@@ -23,14 +22,15 @@ linter:
     - hash_and_equals
     - implicit_reopen
     - invalid_case_patterns
-    - iterable_contains_unrelated_type
-    - list_remove_unrelated_type
+    - invalid_runtime_check_with_js_interop_types
     - literal_only_boolean_expressions
+    - missing_code_block_language_in_doc_comment
     - no_adjacent_strings_in_list
     - no_duplicate_case_values
     - prefer_void_to_null
     - test_types_in_equals
     - throw_in_finally
+    - unintended_html_in_doc_comment
     - unnecessary_statements
     - unrelated_type_equality_checks
     - unsafe_html
@@ -40,8 +40,8 @@ linter:
     - always_declare_return_types
     - always_put_control_body_on_new_line
     - always_put_required_named_parameters_first
-    - always_require_non_null_named_parameters
     - annotate_overrides
+    - annotate_redeclares
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catches_without_on_clauses
     - avoid_classes_with_only_static_members
@@ -59,7 +59,6 @@ linter:
     - avoid_redundant_argument_values
     - avoid_renaming_method_parameters
     - avoid_return_types_on_setters
-    - avoid_returning_null
     - avoid_returning_null_for_void
     - avoid_returning_this
     - avoid_setters_without_getters
@@ -79,6 +78,7 @@ linter:
     - dangling_library_doc_comments
     - deprecated_consistency
     - do_not_use_environment
+    - document_ignores
     - empty_catches
     - empty_constructor_bodies
     - eol_at_end_of_file
@@ -165,6 +165,7 @@ linter:
     - unnecessary_lambdas
     - unnecessary_late
     - unnecessary_library_directive
+    - unnecessary_library_name
     - unnecessary_new
     - unnecessary_null_aware_assignments
     - unnecessary_null_aware_operator_on_extension_on_nullable

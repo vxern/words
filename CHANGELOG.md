@@ -1,3 +1,21 @@
+## 0.5.0
+
+- Add:
+  - Core: (Added together with Dart `3.3.4`)
+    - `annotate_redeclares`
+    - `unnecessary_library_name`
+    - `missing_code_block_language_in_doc_comment`
+    - `unintended_html_in_doc_comment`
+    - `invalid_runtime_check_with_js_interop_types`
+    - `document_ignores`
+- Remove:
+  - Core: (Removed together with Dart `3.3.4`)
+    - `iterable_contains_unrelated_type`
+    - `list_remove_unrelated_type`
+    - `always_require_non_null_named_parameters`
+    - `avoid_returning_null`
+    - `avoid_returning_null_for_future`
+
 ## 0.4.4
 
 - Add:
