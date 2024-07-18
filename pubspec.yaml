@@ -1,5 +1,5 @@
 name: words
-version: 0.4.4
+version: 0.4.5
 
 description: >-
   A curated collection of lints for use by Dart packages to ensure
@@ -10,4 +10,4 @@ repository: https://github.com/vxern/words
 issue_tracker: https://github.com/vxern/words/issues
 
 environment:
-  sdk: ">=3.1.0 <4.0.0"
+  sdk: ">=3.3.4 <4.0.0"
